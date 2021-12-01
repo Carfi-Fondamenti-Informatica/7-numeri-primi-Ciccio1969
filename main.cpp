@@ -10,7 +10,7 @@ int main(){
     if (numeriprimi (a)== 1){
         cout << "numero primo";
     } else {
-        cout << " numero non primo";
+        cout << "numero non primo";
     }
 
     return 0;
