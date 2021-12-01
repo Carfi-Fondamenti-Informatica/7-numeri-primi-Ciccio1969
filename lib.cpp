@@ -10,6 +10,7 @@ bool numeriprimi ( int a){
         for ( int b=2; b<a; b++){
             if ((a % b)== 0){
                 vero_o_falso = false;
+                break;
             }else{
                 vero_o_falso = true;
             }
@@ -21,4 +22,3 @@ bool numeriprimi ( int a){
     }
     return vero_o_falso;
 }
-
